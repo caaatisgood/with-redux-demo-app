@@ -1,5 +1,5 @@
-import Counter from './counter'
 import Nav from './nav'
+import Counter from './counter'
 
 export default () => (
   <>
