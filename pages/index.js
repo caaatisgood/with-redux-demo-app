@@ -1,5 +1,8 @@
+import withRedux from '../hocs/withRedux'
 import Page from '../components/page'
 
-export default function Index() {
-  return <Page />
-}
+export default withRedux(
+  function Index() {
+    return <Page />
+  }
+)
